@@ -87,8 +87,8 @@ void loop()
     Serial.print(" since ");
     Serial.println(NTP.getTimeDateString(NTP.getFirstSync()).c_str());
 
-    i++;
-  }
-*/
+    i++; */
+   }
+
 
 }
