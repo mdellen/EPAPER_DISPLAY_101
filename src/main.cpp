@@ -73,7 +73,7 @@ void loop()
 
     static int i = 0;
 
-    //last = millis();
+    /*//last = millis();
     Serial.print(i);
     Serial.print(" ");
     Serial.print(NTP.getTimeDateString());
@@ -89,21 +89,6 @@ void loop()
 
     i++;
   }
+*/
 
-  /*
-   display.updateWindow(0, 0, GxEPD_WIDTH, GxEPD_HEIGHT, false); // (this avoids strange background effects)
-   display.setCursor(200, 293);
-   display.setFont();
-   display.setTextColor(GxEPD_BLACK);
-   display.print(NTP.getTimeStr());
-   display.updateWindow(0,290,400,10,false); 
-   delay(1000);*/
-  // display.updateWindow(0, 100, 400, 100, true);
-
-  //display.setFont(&SF_Pro_Display_Regular17pt7b);
-  //display.setCursor(0, 240);
-  //display.println("The quick brown fox jumps over the lazy dog...");
-  // Serial.println("24:13");
-
-  //delay(DEMO_DELAY * 1000);
 }

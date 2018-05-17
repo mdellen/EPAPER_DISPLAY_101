@@ -31,6 +31,8 @@ void epaperSetup(){
 
 void epaperUpdate(){
 
+    Serial.print("Update diplay...");    
+    
     display.fillScreen(GxEPD_WHITE);
 
       //if ((millis() - last) > 10000)
